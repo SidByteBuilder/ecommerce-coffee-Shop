@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-3 {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid white;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: aquamarine;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: aqua;
+}
+
+.btn-secondary {
+    background-color: greenyellow;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: green;
+}
+
+.btn-danger {
+    background-color: palevioletred;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: red;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #c49b63;
+}
+
+.main-content {
+    background: url(../images/bg_4.jpg) no-repeat fixed;
+    background-size: cover;
+    color: #c49b63;
+    padding: 1% 0%;
+}
+
+.col-4 {
+    background-color: lightgray;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+
+.footer {
+    background-color: #c49b63;
+    color: aliceblue;
+}
+
+
+/*login page design */
+
+.login {
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
